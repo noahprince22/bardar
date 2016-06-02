@@ -10,14 +10,13 @@
 		2F4F16CA1D0003970084EC48 /* RedLion.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4F16C91D0003970084EC48 /* RedLion.png */; };
 		797C8A0A1CFF692C000F7D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C8A091CFF692C000F7D30 /* AppDelegate.swift */; };
 		797C8A0C1CFF692C000F7D30 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C8A0B1CFF692C000F7D30 /* FirstViewController.swift */; };
+		797C8A0F1CFF692C000F7D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797C8A0D1CFF692C000F7D30 /* Main.storyboard */; };
 		797C8A121CFF692C000F7D30 /* Bardar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 797C8A101CFF692C000F7D30 /* Bardar.xcdatamodeld */; };
 		797C8A141CFF692C000F7D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797C8A131CFF692C000F7D30 /* Assets.xcassets */; };
-		797C8A171CFF692C000F7D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797C8A151CFF692C000F7D30 /* LaunchScreen.storyboard */; };
 		797C8A221CFF692C000F7D30 /* BardarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C8A211CFF692C000F7D30 /* BardarTests.swift */; };
 		797C8A2D1CFF692C000F7D30 /* BardarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C8A2C1CFF692C000F7D30 /* BardarUITests.swift */; };
-		79EFADC21D00CF3500EC708A /* BarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EFADBF1D00CF3500EC708A /* BarCell.swift */; };
-		79EFADC31D00CF3500EC708A /* BarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EFADC01D00CF3500EC708A /* BarTableViewController.swift */; };
-		79EFADC81D00CFDA00EC708A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EFADC71D00CFDA00EC708A /* Main.storyboard */; };
+		797C8A3B1D00C192000F7D30 /* BarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C8A3A1D00C192000F7D30 /* BarCell.swift */; };
+		797C8A3D1D00C487000F7D30 /* BarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C8A3C1D00C487000F7D30 /* BarTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +41,9 @@
 		797C8A061CFF692C000F7D30 /* Bardar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bardar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		797C8A091CFF692C000F7D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		797C8A0B1CFF692C000F7D30 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		797C8A0E1CFF692C000F7D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		797C8A111CFF692C000F7D30 /* Bardar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bardar.xcdatamodel; sourceTree = "<group>"; };
 		797C8A131CFF692C000F7D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		797C8A161CFF692C000F7D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		797C8A181CFF692C000F7D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		797C8A1D1CFF692C000F7D30 /* BardarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BardarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		797C8A211CFF692C000F7D30 /* BardarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BardarTests.swift; sourceTree = "<group>"; };
@@ -52,9 +51,8 @@
 		797C8A281CFF692C000F7D30 /* BardarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BardarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		797C8A2C1CFF692C000F7D30 /* BardarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BardarUITests.swift; sourceTree = "<group>"; };
 		797C8A2E1CFF692C000F7D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79EFADBF1D00CF3500EC708A /* BarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarCell.swift; sourceTree = "<group>"; };
-		79EFADC01D00CF3500EC708A /* BarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarTableViewController.swift; sourceTree = "<group>"; };
-		79EFADC71D00CFDA00EC708A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		797C8A3A1D00C192000F7D30 /* BarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BarCell.swift; path = Bardar/BarCell.swift; sourceTree = "<group>"; };
+		797C8A3C1D00C487000F7D30 /* BarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BarTableViewController.swift; path = Bardar/BarTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,14 +103,13 @@
 		797C8A081CFF692C000F7D30 /* Bardar */ = {
 			isa = PBXGroup;
 			children = (
-				79EFADC71D00CFDA00EC708A /* Main.storyboard */,
-				79EFADBF1D00CF3500EC708A /* BarCell.swift */,
-				79EFADC01D00CF3500EC708A /* BarTableViewController.swift */,
 				797C8A091CFF692C000F7D30 /* AppDelegate.swift */,
 				797C8A0B1CFF692C000F7D30 /* FirstViewController.swift */,
+				797C8A0D1CFF692C000F7D30 /* Main.storyboard */,
+				797C8A3C1D00C487000F7D30 /* BarTableViewController.swift */,
+				797C8A3A1D00C192000F7D30 /* BarCell.swift */,
 				2F4F16C91D0003970084EC48 /* RedLion.png */,
 				797C8A131CFF692C000F7D30 /* Assets.xcassets */,
-				797C8A151CFF692C000F7D30 /* LaunchScreen.storyboard */,
 				797C8A181CFF692C000F7D30 /* Info.plist */,
 				797C8A101CFF692C000F7D30 /* Bardar.xcdatamodeld */,
 			);
@@ -241,10 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				797C8A171CFF692C000F7D30 /* LaunchScreen.storyboard in Resources */,
 				797C8A141CFF692C000F7D30 /* Assets.xcassets in Resources */,
+				797C8A0F1CFF692C000F7D30 /* Main.storyboard in Resources */,
 				2F4F16CA1D0003970084EC48 /* RedLion.png in Resources */,
-				79EFADC81D00CFDA00EC708A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				797C8A0C1CFF692C000F7D30 /* FirstViewController.swift in Sources */,
-				79EFADC21D00CF3500EC708A /* BarCell.swift in Sources */,
-				79EFADC31D00CF3500EC708A /* BarTableViewController.swift in Sources */,
+				797C8A3B1D00C192000F7D30 /* BarCell.swift in Sources */,
+				797C8A3D1D00C487000F7D30 /* BarTableViewController.swift in Sources */,
 				797C8A0A1CFF692C000F7D30 /* AppDelegate.swift in Sources */,
 				797C8A121CFF692C000F7D30 /* Bardar.xcdatamodeld in Sources */,
 			);
@@ -309,12 +305,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		797C8A151CFF692C000F7D30 /* LaunchScreen.storyboard */ = {
+		797C8A0D1CFF692C000F7D30 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				797C8A161CFF692C000F7D30 /* Base */,
+				797C8A0E1CFF692C000F7D30 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
