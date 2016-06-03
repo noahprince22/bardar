@@ -14,7 +14,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BarCell" rowHeight="158" id="jai-aL-vU0" customClass="BarCell" customModule="Bardar" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="BarCell" rowHeight="158" id="jai-aL-vU0" customClass="BarCell" customModule="Bardar" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="375" height="158"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jai-aL-vU0" id="3qZ-NE-OSE">
@@ -95,6 +95,31 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ReportCell" id="5Gz-CR-qwi" customClass="ReportCell" customModule="Bardar" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="250" width="375" height="158"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5Gz-CR-qwi" id="BSL-qC-eDP">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="157.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Some report related shit..." borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vuo-4a-TqT">
+                                            <rect key="frame" x="86" y="47" width="190" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QuC-Vq-1em">
+                                            <rect key="frame" x="221" y="112" width="119" height="30"/>
+                                            <state key="normal" title="Submit Button Yo"/>
+                                            <connections>
+                                                <action selector="submitClicked:" destination="5Gz-CR-qwi" eventType="touchUpInside" id="Rtk-Ji-Q5W"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="submit" destination="QuC-Vq-1em" id="fp9-rl-THX"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
