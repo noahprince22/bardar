@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2F4F16CA1D0003970084EC48 /* RedLion.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4F16C91D0003970084EC48 /* RedLion.png */; };
+		2F93F56A1D0203C2008A7ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F93F5691D0203C2008A7ED6 /* Main.storyboard */; };
 		797C8A0A1CFF692C000F7D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C8A091CFF692C000F7D30 /* AppDelegate.swift */; };
 		797C8A0C1CFF692C000F7D30 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C8A0B1CFF692C000F7D30 /* FirstViewController.swift */; };
-		797C8A0F1CFF692C000F7D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797C8A0D1CFF692C000F7D30 /* Main.storyboard */; };
 		797C8A121CFF692C000F7D30 /* Bardar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 797C8A101CFF692C000F7D30 /* Bardar.xcdatamodeld */; };
 		797C8A141CFF692C000F7D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797C8A131CFF692C000F7D30 /* Assets.xcassets */; };
 		797C8A221CFF692C000F7D30 /* BardarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C8A211CFF692C000F7D30 /* BardarTests.swift */; };
@@ -38,10 +38,10 @@
 
 /* Begin PBXFileReference section */
 		2F4F16C91D0003970084EC48 /* RedLion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedLion.png; sourceTree = "<group>"; };
+		2F93F5691D0203C2008A7ED6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "bardar-master/Bardar/Main.storyboard"; sourceTree = "<group>"; };
 		797C8A061CFF692C000F7D30 /* Bardar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bardar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		797C8A091CFF692C000F7D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		797C8A0B1CFF692C000F7D30 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		797C8A0E1CFF692C000F7D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		797C8A111CFF692C000F7D30 /* Bardar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bardar.xcdatamodel; sourceTree = "<group>"; };
 		797C8A131CFF692C000F7D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		797C8A181CFF692C000F7D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +83,7 @@
 		797C89FD1CFF692C000F7D30 = {
 			isa = PBXGroup;
 			children = (
+				2F93F5691D0203C2008A7ED6 /* Main.storyboard */,
 				797C8A081CFF692C000F7D30 /* Bardar */,
 				797C8A201CFF692C000F7D30 /* BardarTests */,
 				797C8A2B1CFF692C000F7D30 /* BardarUITests */,
@@ -105,7 +106,6 @@
 			children = (
 				797C8A091CFF692C000F7D30 /* AppDelegate.swift */,
 				797C8A0B1CFF692C000F7D30 /* FirstViewController.swift */,
-				797C8A0D1CFF692C000F7D30 /* Main.storyboard */,
 				797C8A3C1D00C487000F7D30 /* BarTableViewController.swift */,
 				797C8A3A1D00C192000F7D30 /* BarCell.swift */,
 				2F4F16C91D0003970084EC48 /* RedLion.png */,
@@ -213,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 797C8A011CFF692C000F7D30 /* Build configuration list for PBXProject "Bardar" */;
+			buildConfigurationList = 797C8A011CFF692C000F7D30 /* Build configuration list for PBXProject "bardar" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -238,8 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F93F56A1D0203C2008A7ED6 /* Main.storyboard in Resources */,
 				797C8A141CFF692C000F7D30 /* Assets.xcassets in Resources */,
-				797C8A0F1CFF692C000F7D30 /* Main.storyboard in Resources */,
 				2F4F16CA1D0003970084EC48 /* RedLion.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,17 +303,6 @@
 			targetProxy = 797C8A291CFF692C000F7D30 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		797C8A0D1CFF692C000F7D30 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				797C8A0E1CFF692C000F7D30 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		797C8A2F1CFF692C000F7D30 /* Debug */ = {
@@ -472,7 +461,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		797C8A011CFF692C000F7D30 /* Build configuration list for PBXProject "Bardar" */ = {
+		797C8A011CFF692C000F7D30 /* Build configuration list for PBXProject "bardar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				797C8A2F1CFF692C000F7D30 /* Debug */,

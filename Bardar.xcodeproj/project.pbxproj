@@ -18,6 +18,8 @@
 		79EFADC21D00CF3500EC708A /* BarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EFADBF1D00CF3500EC708A /* BarCell.swift */; };
 		79EFADC31D00CF3500EC708A /* BarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EFADC01D00CF3500EC708A /* BarTableViewController.swift */; };
 		79EFADC81D00CFDA00EC708A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EFADC71D00CFDA00EC708A /* Main.storyboard */; };
+		79EFADCA1D00E0D800EC708A /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EFADC91D00E0D800EC708A /* Bar.swift */; };
+		79EFADCE1D00F16E00EC708A /* ReportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EFADCD1D00F16E00EC708A /* ReportCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		79EFADBF1D00CF3500EC708A /* BarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarCell.swift; sourceTree = "<group>"; };
 		79EFADC01D00CF3500EC708A /* BarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarTableViewController.swift; sourceTree = "<group>"; };
 		79EFADC71D00CFDA00EC708A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		79EFADC91D00E0D800EC708A /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		79EFADCD1D00F16E00EC708A /* ReportCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				79EFADC71D00CFDA00EC708A /* Main.storyboard */,
+				79EFADCD1D00F16E00EC708A /* ReportCell.swift */,
 				79EFADBF1D00CF3500EC708A /* BarCell.swift */,
 				79EFADC01D00CF3500EC708A /* BarTableViewController.swift */,
+				79EFADC91D00E0D800EC708A /* Bar.swift */,
 				797C8A091CFF692C000F7D30 /* AppDelegate.swift */,
 				797C8A0B1CFF692C000F7D30 /* FirstViewController.swift */,
 				2F4F16C91D0003970084EC48 /* RedLion.png */,
@@ -270,8 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				797C8A0C1CFF692C000F7D30 /* FirstViewController.swift in Sources */,
+				79EFADCA1D00E0D800EC708A /* Bar.swift in Sources */,
 				79EFADC21D00CF3500EC708A /* BarCell.swift in Sources */,
 				79EFADC31D00CF3500EC708A /* BarTableViewController.swift in Sources */,
+				79EFADCE1D00F16E00EC708A /* ReportCell.swift in Sources */,
 				797C8A0A1CFF692C000F7D30 /* AppDelegate.swift in Sources */,
 				797C8A121CFF692C000F7D30 /* Bardar.xcdatamodeld in Sources */,
 			);
